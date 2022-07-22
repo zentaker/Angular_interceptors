@@ -12,9 +12,9 @@ export class AppComponent {
   constructor(private usuarioService: UsuariosService){
 
     //llamar al servicio 
-    this.usuarioService.obtenerUsuario()
+    this.usuarioService.obtenerUsuarioInterceptor()
     .subscribe(resp => {
-      
+
       console.log(resp);
     })
 
