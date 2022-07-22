@@ -28,3 +28,8 @@ constructor(private usuarioService: UsuariosService){
   }
 
 ```
+
+### Peticiones con interceptores 
+funciona como un componente de servicio en angular 
+
+``ng g s interceptors/``
